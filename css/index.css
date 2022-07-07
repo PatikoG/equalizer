@@ -1,0 +1,479 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    width: 375px;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+header{
+    /* border: 1px solid #191826; */
+    
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    
+    background-image: url("../equalizer-landing-page/starter-code/assets/bg-main-mobile.png");
+    background-repeat: no-repeat;
+    background-position: right -150px bottom -60px ;
+    
+    
+    
+}
+
+.logo{
+    width: 146px;
+    margin-top: 40px;
+    margin-left: 24px;
+}
+
+
+.pattern-t{
+    display: none;
+}
+
+
+.sound{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px; 
+    width: 327px;
+    height: 144px;
+    color: #191826;
+    margin-bottom: 20px;
+}
+
+.system{
+    width: 327px;
+    height: 156px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #191826;
+}
+
+.makemusic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 64px;
+}
+
+.four{
+    height: 600px;
+    background-color: #191826;
+    display: flex;
+    justify-content: center;
+    border-radius: 12px;
+    margin-top: 166px;
+    position: relative;
+}
+
+
+.black{
+    height: 900px;
+}
+
+.photk-m{
+    width: 280px;
+    height: 420px;
+}
+
+.phone{
+    width: 208px;
+    height: 430px;
+    position: absolute;
+    transform: translateY(-20%);
+}
+
+
+
+.premium{
+    position: absolute;
+    height: 546px;
+    width: 375px;
+    background: #FA7453;
+    border-radius: 12px;
+    transform: translateY(70%);
+    display: flex;
+    flex-direction: column;
+}
+
+.position{
+    margin: 0 auto;
+}
+
+
+.eq{
+    width: 302px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FCFAF9;
+    margin-top:48px;
+    margin-bottom: 12px;
+}
+
+.level{
+    width: 302px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FCFAF9;
+    margin-bottom: 36px;
+}
+
+
+.price{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 32px;
+    
+}
+
+.dollar{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 52px;
+    color: #FCFAF9;
+    margin-right: 16px;
+}
+
+.month{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    color: #FCFAF9;
+}
+
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.ios{
+    width: 296px;
+    height: 61px;
+    background: #191826;
+    border-radius: 12px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+    color: #FCFAF9;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.ios img{
+    margin-right: 7px;
+    
+}
+
+.android{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    letter-spacing: -0.18px;
+    color: #191826;
+    background: #FCFAF9;
+    border-radius: 12px;
+    width: 296px;
+    height: 61px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    border: none;
+}
+
+.android img{
+    margin-right: 7px;
+}
+
+
+footer{
+    width: 100%;
+   
+    margin-top: 330px;
+    
+}
+.end{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+margin-left: 24px;
+}
+
+
+
+.logo-end{
+ margin-top: 64px;   
+ margin-bottom: 32px;
+}
+
+
+.mail{
+   width: 327px;
+   height: 105px; 
+   font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #191826;
+    margin-bottom: 64px;
+}
+
+.logos{
+    margin-bottom: 80px;
+}
+
+.facebook{
+    margin-right: 20px;
+}
+
+.instagram{
+    margin-right: 20px;
+}
+
+
+@media screen and (min-width: 750px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    
+
+.wrapper{
+    overflow-x: hidden;
+    background-image: url("../equalizer-landing-page/starter-code/assets/bg-main-tablet.png");
+    background-repeat: no-repeat;
+    background-position: right -150px top -200px ;
+}
+
+    .spacebet{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        position: relative;
+    }
+
+    .logo{
+        margin-left: 39px;
+    }
+
+    .pattern-t{
+        display: block;
+        width: 266px;
+        height: 400px;
+        transform: translate(15% ,-10%);
+    }
+
+    
+
+    .sound{
+        width: 520px;
+        height: 192px;
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 64px;
+        letter-spacing: -0.727273px;
+    }
+
+    .system{
+       width: 514px;
+       height: 112px;
+       font-family: 'IBM Plex Sans';
+       font-style: normal;
+       font-weight: 400;
+       font-size: 18px;
+       line-height: 28px;   
+    }
+
+    .makemusic{
+        margin-top:95px ;
+        margin-left: 39px;
+    }
+
+
+    .phone{
+        transform: translate(-55% , -20%);
+        width: 270px;
+        height: 556px;
+    }
+
+    .shavi{
+        display: flex;
+        justify-content: center;
+    }
+
+    .four{
+        width: 696px;
+    }
+
+    
+
+    .premium{
+        transform: translate(23%, 33%);
+        width: 399px;
+        height: 546px;
+
+    }
+
+    .mail{
+        width: 366px;
+        height: 79px;
+    }
+
+    footer{
+        margin-top: 182px;
+    }
+
+    .for-t{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+.logos{
+    margin-right: 39px;
+}
+    
+}
+
+@media screen and (min-width: 1440px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+.pattern-t{
+    width: 312px;
+    height: 468px;
+    transform: translateY(-10%);
+}
+
+.logo{
+    margin-left: 165px;
+    margin-top: 62px;
+}
+
+.sound{
+    width: 1015px;
+    height: 176px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 88px;
+    line-height: 88px;
+    letter-spacing: -1px;   
+
+}
+
+.makemusic{
+    margin-left: 165px;
+    align-items: flex-start;
+}
+
+.system{
+    width: 825px;
+    height: 102px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+}
+
+
+.wrapper{
+    overflow-x: hidden;
+    background-image: url("../equalizer-landing-page/starter-code/assets/bg-main-desktop.png");
+    background-repeat: no-repeat;
+    background-position: right -150px top -200px ;
+}
+
+.four{
+    width:1100px;
+    margin-top: 321px;
+}
+
+.phone{
+    transform: translate(-110% , -30%);
+    width: 280px;
+    height: 606px;
+}
+
+.photk-m{
+    transform: translate(-35%);
+}
+
+
+.premium{
+    transform: translate(43%, 20%);
+    width: 446px;
+    height: 625px;
+
+}
+
+.end{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.logo-end{
+    margin-left: 165px;
+    margin-right:137px ;
+    margin-bottom: 138px;
+}
+
+.ios:hover{
+    background: #66E2DC;
+    cursor: pointer;
+}
+.android:hover{
+    background: #FFB964;
+    cursor: pointer;
+}
+
+}
